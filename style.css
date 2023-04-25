@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #857c7e;
+}
+#container {
+  background-color: #ccc;
+  width: 70%;
+  box-shadow: 4px 4px 4px;
+  margin: auto;
+  margin-top: 140px;
+  padding: 10px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#options label {
+  display: block;
+  border: 2px solid;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+#options label input {
+  margin-right: 5px;
+}
+#btn {
+  display: inline-block;
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#btn1 {
+  display: inline-block;
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
