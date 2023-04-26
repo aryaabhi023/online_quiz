@@ -23,7 +23,7 @@ function createQuestion(i) {
   main.innerHTML = "";
   const question = document.createElement("h3");
   question.id = "question";
-  question.textContent = obj[i].question;
+  question.innerHTML = obj[i].question;
   main.appendChild(question);
   createOptions(i);
 }
@@ -42,7 +42,7 @@ function createOptions(index) {
     input.name = "ans";
     const span = document.createElement("span");
     span.id = `ans${j}`;
-    span.textContent = options[j];
+    span.innerHTML = options[j];
     label.appendChild(input);
     label.appendChild(span);
     div.appendChild(label);
@@ -68,7 +68,7 @@ function NextQuestion() {
     console.log(count);
     const result = document.createElement("h4");
     console.log(result);
-    result.textContent = `Your score is: ${count}/10`;
+    result.innerHTML = `Your score is: ${count}/10`;
     console.log(result);
     main.appendChild(result);
   } else {
